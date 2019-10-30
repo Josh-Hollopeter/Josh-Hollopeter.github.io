@@ -1,11 +1,15 @@
 body {
-  background-image: url("images/wheat.png");
+  background-image: url("images/night.jpg");
+  background-size: cover;
   color: white;
   text-align: center;
+  background-attachment: fixed;
+
+
 }
 
 a {
-  color: lightgreen;
+  color: green;
 }
 ol {
     text-align: center;
@@ -21,4 +25,28 @@ p.main {
 p {
   font-size: 22px;
   padding: 0px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: lightgrey
+}
+em {
+  color: white;
+}
+h1 {
+  color: lightblue;
+  font-family: OCR A Std, monospace;
+}
+h2 {
+  font-family: OCR A Std, monospace;
+  color: lightgreen
+}
+div {
+  overflow: scroll;
+}
+h4 {
+color:purple}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
 }
