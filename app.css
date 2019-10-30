@@ -26,25 +26,30 @@ p {
   font-size: 22px;
   padding: 0px;
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  color: lightgrey
+  color: lightgrey;
 }
 em {
   color: lightgreen;
 }
 h1 {
-  color: green;
+  color: GreenYellow;
   font-family: OCR A Std, monospace;
   padding: 30px
 }
 h2 {
   font-family: OCR A Std, monospace;
-  color: lightgreen
+  color: GreenYellow;
 }
-div {
-  overflow: scroll;
+
+h3 { color: GreenYellow;
+  padding-top: 35px;
 }
 h4 {
-color:purple;
+color: GreenYellow;
+}
+div {
+  padding-top: 35px;
+  overflow: scroll;
 }
 
 img:hover {
