@@ -1,7 +1,7 @@
 body {
   background-image: url("images/night.jpg");
   background-size: cover;
-  color: white;
+
   text-align: center;
   background-attachment: fixed;
 
@@ -29,10 +29,10 @@ p {
   color: lightgrey
 }
 em {
-  color: white;
+  color: lightgreen;
 }
 h1 {
-  color: lightblue;
+  color: green;
   font-family: OCR A Std, monospace;
 }
 h2 {
@@ -43,10 +43,15 @@ div {
   overflow: scroll;
 }
 h4 {
-color:purple}
+color:purple;
+}
 
 img:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 
+}
+ol {
+  color: lightgrey;
+  font-size: 22px;
 }
