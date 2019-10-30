@@ -1,4 +1,24 @@
-p {
-  color: red;
+body {
+  background-image: url("images/wheat.png");
+  color: white;
   text-align: center;
-} 
+}
+
+a {
+  color: lightgreen;
+}
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+hr {
+  border-top: 1px solid red;
+}
+p.main {
+  padding-top: 35px;
+  font-size: 22px;
+}
+p {
+  font-size: 22px;
+  padding: 0px;
+}
